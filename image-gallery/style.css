@@ -1,6 +1,19 @@
 body {
     padding-top: 70px;
+    background-image: linear-gradient( rgb(255, 255, 255), rgb(46, 46, 46))
 }
 
+.img-thumbnail {
+    margin: 2%;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
+                0 8px 13px rgba(0, 0, 0, 0.1),
+                0 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron {
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
+                0 8px 13px rgba(0, 0, 0, 0.1),
+                0 18px 23px rgba(0, 0, 0, 0.1);
+}
 
 
