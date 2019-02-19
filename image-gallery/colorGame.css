@@ -1,0 +1,43 @@
+html, body {
+    margin: 0 0 0 0;
+    background-color: #232323;
+}
+
+.header1 {
+    margin-bottom: 0;
+    margin: 0 0 0 0;
+    margin-block-end: 0;
+    text-align: center;
+    background-color: #232323;
+    color: white;
+    
+}
+
+
+
+#messageDisplay {
+    margin: 0 0 0 0;
+    background-color: #232323;
+    color: white;
+}
+
+div {
+    margin: 0 0 0 0;
+    background-color: #232323;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+
+}
+
