@@ -20,12 +20,6 @@ game.init();
 
 
 
-
-
-
-
-
-
 resetBtn.addEventListener("click", function(){
     reset();
 });
