@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <title>TodoList App</title>
+            <link rel="stylesheet" href="todos.css" type="text/css">
+            <script type="text/javascript" src="todolistApp/assets/js/lib/jquery-3.3.1.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">            
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                    <div class="container">
+                      <a class="navbar-brand" href="https://www.google.com/"><i class="far fa-gem"></i> Diamond</a>
+        
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+        
+        
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                         <li class="nav-item">
+                          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                         </li>
+                         <li class="nav-item active">
+                            <a class="nav-link" href="todos.html">Todo List</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="artical.html">Article</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="colorGame.html">Game</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="https://www.google.com/">Link</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               Dropdown
+                            </button>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                         </li>
+                        </ul>
+                       <form class="form-inline my-2 my-lg-0">
+                       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                       <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+                       </form>
+                      </div>
+                    </div>
+              </nav> 
+
+            <div id="todoContainer">
+                <h1 id="todoHeader">To-Do List<i class="fas fa-plus"></i></h1>
+                <input class="todoInput" type="text" placeholder="Add New Todo">
+
+                <ul class="todoUL">
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> Start developed web site</li>
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> Listen Music</li>
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> Visit web development knowlage</li>
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> have some good launch</li>
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> play ROV game</li>
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> go back home</li>
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> have a dinner with family</li>
+                    <li class="todoLI"><span class="listIcon"><i class="fas fa-trash-alt"></i></span> spend happytime with family</li>
+                </ul>
+            </div>
+            <script type="text/javascript" src="todos.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>            
+        </body>
+    </head>
+</html>
