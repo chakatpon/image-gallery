@@ -12,7 +12,7 @@ html {
 
 #content {
     text-align: center;
-    padding-top: 25%;
+    margin: 30% auto;
     text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
                  0 8px 13px rgba(0, 0, 0, 0.1),
                  0 18px 23px rgba(0, 0, 0, 0.1);
