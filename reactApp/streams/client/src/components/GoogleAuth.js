@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { signIn, signOut } from '../actions';
 
 class GoogleAuth extends React.Component {
-    state = {}
+    
 
     componentDidMount() {
         window.gapi.load('client:auth2', () => {
@@ -66,9 +66,7 @@ class GoogleAuth extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-        console.log("=============");
-        console.log(state.auth.isSignedIn);
-        console.log("==============");
+
         return { isSignedIn : state.auth.isSignedIn };
     }
 
